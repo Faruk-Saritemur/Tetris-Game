@@ -4,7 +4,6 @@ function bgPlay() {
    const playMusic = document.getElementById("bgAudio");
    playMusic.play();
 }
-bgPlay();
 
 var countScore = 1;
 var myVar = setInterval(myTimer, 1000);
@@ -272,4 +271,5 @@ document.addEventListener("keydown", event => {
 initArena();
 update();
 
-bgPlay();
+
+
