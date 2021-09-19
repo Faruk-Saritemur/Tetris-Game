@@ -1,0 +1,54 @@
+
+html, body {
+    background-color: rgb(14, 23, 71);
+}
+
+canvas {
+    position: absolute;
+    padding: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: 5px solid #fff;
+}
+
+.scoreBorder {
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 350px;
+    opacity: 0.7;
+}
+
+#highScore {
+    width: 100px;
+    height: 20px;
+    left: -105px;
+    text-align: center;
+}
+
+#countScore {
+    width: 45px;
+    height: 20px;
+    left: 52px;
+    opacity: 0.7;
+    text-align: right;
+}
+
+#btn {
+    width: 50px;
+    height: 24px;
+    left: 155px;
+    background-color: #000;
+}
+
+#btn:hover {
+    opacity: 1;
+}
